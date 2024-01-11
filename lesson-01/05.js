@@ -12,6 +12,5 @@ case rule.length < 25:
   break;
   default:
   console.log("А что так можно было?");
-  break;
 
 }
