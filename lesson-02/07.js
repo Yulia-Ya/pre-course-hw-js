@@ -1,4 +1,4 @@
-let marriedPerson = {
+let passportMarried = {
     name: "Petr",
     surname: "Petrov",
     address: {
@@ -7,8 +7,8 @@ let marriedPerson = {
     }
 };
 
-let marriedPerson2 = structuredClone(marriedPerson);
-marriedPerson2.married = true;
+let passportMarried2 = JSON.parse(JSON.stringify(passportMarried));
+passportMarried2.married = true;
 
-console.log(marriedPerson2);
-console.log(marriedPerson);
+console.log(passportMarried);
+console.log(passportMarried2);
