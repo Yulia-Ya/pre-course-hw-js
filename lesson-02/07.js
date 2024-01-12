@@ -3,12 +3,12 @@ let marriedPerson = {
     surname: "Petrov",
     address: {
         country: "USA",
-        city: "LA"
+        city: "Bobryisk"
     }
 };
 
 let marriedPerson2 = structuredClone(marriedPerson);
 marriedPerson2.married = true;
 
-console.log(marriedPerson);
 console.log(marriedPerson2);
+console.log(marriedPerson);
