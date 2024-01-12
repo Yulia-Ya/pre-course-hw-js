@@ -1,21 +1,14 @@
-let passportMarried = {
+let marriedPerson = {
     name: "Petr",
     surname: "Petrov",
     address: {
         country: "USA",
-        ity: "Bobryisk"
+        city: "LA"
     }
 };
 
-let passportMarried2 = {
-    name: "Petr",
-    surname: "Petrov",
-    married: true,
-    address: {
-        country: "USA",
-        ity: "Bobryisk"
-    }
-};
+let marriedPerson2 = structuredClone(marriedPerson);
+marriedPerson2.married = true;
 
-console.log(passportMarried);
-console.log(passportMarried2);
+console.log(marriedPerson);
+console.log(marriedPerson2);
