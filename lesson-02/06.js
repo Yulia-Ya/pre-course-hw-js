@@ -9,5 +9,5 @@ let passportWithAddress = {
 
 let changedCity = JSON.parse(JSON.stringify(passportWithAddress));
 changedCity.address.city = "Bobryisk";
-console.log(changedCity.address.city);
 console.log(passportWithAddress.address.city);
+console.log(changedCity.address.city);
