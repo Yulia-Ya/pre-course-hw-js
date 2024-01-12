@@ -5,5 +5,5 @@ let passport = {
 
 const copiedPassport = structuredClone(passport)
 copiedPassport.name = "Ivan";
-console.log(copiedPassport.name)
 console.log(passport)
+console.log(copiedPassport.name)
