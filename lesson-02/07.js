@@ -3,7 +3,7 @@ let passportMarried = {
     surname: "Petrov",
     address: {
         country: "USA",
-        city: "LA"
+        ity: "Bobryisk"
     }
 };
 
@@ -13,7 +13,7 @@ let passportMarried2 = {
     married: true,
     address: {
         country: "USA",
-        city: "LA"
+        ity: "Bobryisk"
     }
 };
 
