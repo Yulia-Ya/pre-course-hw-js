@@ -32,7 +32,7 @@ const users3 = [
 ];
 
 
-users3.forEach(function(item, i){
-    item.isMarried = true;
-  });
+users3.forEach(el => 
+    el.isMarried = true );
+    
 console.log(users3)
