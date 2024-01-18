@@ -31,6 +31,8 @@ const users3 = [
     },
 ];
 
-users3 = users3.map((el) => ({...el, isMarried: true}));
 
+users3.forEach(function(item, i){
+    item.isMarried = true;
+  });
 console.log(users3)
